@@ -1,8 +1,6 @@
 /*
-Al presionar el  botón, 
-se debe mostrar un mensaje como el siguiente "Esto funciona de maravilla"*/
-function mostrar()
+Al presionar el  botón, se debe mostrar un mensaje como el siguiente "Esto funciona de maravilla"*/
+function mostrar()
 {
-	alert("riccio");
+	alert ("Esto funciona de maravilla");
 }
-
