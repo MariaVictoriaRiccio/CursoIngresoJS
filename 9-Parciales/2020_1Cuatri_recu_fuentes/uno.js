@@ -8,8 +8,7 @@ Se debe Informar al usuario lo siguiente:
 a) Del más caro de los jabones, la cantidad de unidades y el fabricante
 b) Del tipo de producto con más unidades en total de la compra, el promedio por compra
 c) Cuántas unidades de Barbijos se compraron en total*/
-function mostrar()
-{
+function mostrar(){
 	let tipo;
 	let precio;
 	let cantidad;
@@ -26,7 +25,7 @@ function mostrar()
 	let acumMayor=0;
 	let promedio;
 
-for (let i=0;i<3 ;i++){
+for (let i=0;i<5 ;i++){
 tipo= prompt ("Por favor ingrese el producto: barbijo, alcohol o jabon");
 while (tipo!="barbijo" && tipo != "jabon" && tipo !="alcohol"){
 	tipo=prompt("ERROR.Por favor, reingrese un producto: barbijo, alcohol o jabon")
@@ -58,7 +57,7 @@ if (flagJabonCaro==0 || precio>precioJabonCaro){
 		acumJabon=+cantidad;
 		jabonCaroFabricante=fabricante;
 		flagJabonCaro=1;
-	}*/
+	} */
 
 if (flagJabonCaro==0 || precio>precioJabonCaro){
 		precioJabonCaro=precio;
