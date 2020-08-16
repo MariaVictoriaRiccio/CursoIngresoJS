@@ -5,7 +5,7 @@
 let precio;
 let porcentajeDescuento;
 let precioConDescuento;
-let precioFinal;
+
 
 precio=parseInt(prompt("Por favor ingrese el precio"));
 porcentajeDescuento=parseInt(prompt("Por favor ingrese el porcentaje de descuento"));
